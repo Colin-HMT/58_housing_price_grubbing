@@ -27,7 +27,7 @@ while True:
         time.sleep(5)
 
     data=dict(zip(fangjiaym,fangjiaval))
-    df = pd.DataFrame(data=data, index=[0])
+    df = pd.DataFrame(data=data)
     df = (df.T)
     print (df)
     df.to_excel(f'{cityname}.xlsx')
