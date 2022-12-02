@@ -1,7 +1,6 @@
 import re
 
 import requests
-import os
 from bs4 import BeautifulSoup
 import lxml
 import pandas as pd
